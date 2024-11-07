@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-family: 'Poppins';
+}
+
+title {
+    display: none;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: hsl(0, 0%, 94%);
+    overflow: hidden;
+}
+
+#card {
+    align-items: start;
+    flex-direction: column;
+    height: fit-content;
+    width: fit-content;
+    max-width: 40vw;
+    padding: 4%;
+    border-radius: 15px 15px 100px 15px;
+    background-color: white;
+}
+
+#card #input-area {
+    max-width: 80%;
+}
+
+#card #input-area .input-field {
+    flex-direction: column;
+    align-items: start;
+    color: hsl(0, 1%, 44%);
+}
+
+#card #input-area .input-field #input-title {
+    letter-spacing: 3px;
+}
+
+#card #input-area .input-field .input-text {
+    margin-top: 2.5%;
+    padding: 8%;
+    width: 70%;
+    font-size: 32px;
+    border-radius: 10px;
+    border: solid 1px hsl(0, 0%, 86%);
+}
+
+#card #input-area .input-field .input-text:focus {
+    border: solid 1px hsl(259, 100%, 65%);
+    transition: 300ms;
+}
+
+#card #button-area {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#card #button-area #partition-line{
+    margin-block: 5%;
+    width: 100%;
+    height: 1px;
+    background-color: hsl(0, 0%, 86%);
+}
+
+#card #button-area #button {
+    padding: 0;
+    margin-right: -10%;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    background-color: hsl(259, 100%, 65%);
+}
+
+#card #button-area #button:hover {
+    background-color: black;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+#card #results-area {
+    flex-direction: column;
+    align-items: start;
+}
+
+#card #results-area .result-text-area {
+    font-size: 72px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 72px;
+}
+
+#card #results-area .result-text-area .result-text-num {
+    color: hsl(259, 100%, 65%);
+}
+
+
+#redday{
+    font-size: 10px;
+    margin-left: 5px;
+    display: none;
+}
+#redmonth{
+    font-size: 10px;
+    margin-left: 5px;
+    display: none;}
+#redyear{
+    font-size: 10px;
+    margin-left: 5px;
+    display: none;;
+}

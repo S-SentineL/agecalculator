@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Age Calculator</title>
+  <link rel="icon" sizes="32x32" href="assets/images/favicon-32x32.png"/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <div id="card">
+    <div id="input-area">
+      <div class="input-field">
+        <span id="input-title">DAY</span> 
+        <input class="input-text" id="inputDate" placeholder="DD"/>
+        <span id="redday">This field is required</span>
+      </div>
+      <div class="input-field">
+        <span id="input-title">MONTH</span>
+        <input class="input-text" id="inputMonth" placeholder="MM"/>
+        <span id="redmonth">This field is required</span>
+      </div>
+      <div class="input-field">
+        <span id="input-title">YEAR</span>
+        <input class="input-text" id="inputYear" placeholder="YYYY"/>
+        <span id="redyear">This field is required</span>
+      </div>
+    </div>
+    <div id="button-area">
+      <div id="partition-line"></div>
+      <div id="button">
+        <img src="assets/images/icon-arrow.svg" alt="Go" id="btn-arrow"/>
+      </div>
+    </div>
+    <div id="results-area">
+      <div class="result-text-area">
+        <span class="result-text-num" id="resultYear">
+          --&nbsp;
+        </span>
+        <span class="result-text-title">
+          years
+        </span>
+      </div>
+      <div class="result-text-area">
+        <span class="result-text-num" id="resultMonth">
+          --&nbsp;
+        </span>
+        <span class="result-text-title">
+          months
+        </span>
+      </div>
+      <div class="result-text-area">
+        <span class="result-text-num" id="resultDate">
+          --&nbsp;
+        </span>
+        <span class="result-text-title">
+          days
+        </span>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
